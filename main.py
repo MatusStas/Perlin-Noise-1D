@@ -36,7 +36,10 @@ def main():
     mpl.figure('Perlin Noise 1D')
     frame1 = mpl.gca()
     frame1.axes.xaxis.set_ticklabels([])
+
     mpl.plot(all[-1])
+    mpl.savefig('img.png')
     mpl.show()
-    
+
+
 main()
